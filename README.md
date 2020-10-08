@@ -5,3 +5,6 @@
 ## 使用说明:<br>
 调用url:`http://域名/index.php/api/参数`<br>
 api返回类型:`array`<br>
+## 目录接结构<br>
+>>>application
+  >>index
