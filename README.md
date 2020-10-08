@@ -99,6 +99,9 @@ api返回类型:`array`<br>
 `dataType`:`返回的数据类型``非必要值``不指定则默认返回数据类型为json`
 `可选值:``array 和 json``注意:非array字符串默认为json类型`<br>
 `value`:`必要值``搜索值``不指定默认搜索配置"China"`
+#### 测试地址<br>
+return `array`:`http://api.xskj.store/index.php/api/get?dataType=array&value=测试`<br>
+return `json`:`http://api.xskj.store/index.php/api/get?dataType=json&value=测试`
 ## 代码贡献<br>
 欢迎大家贡献相关代码！共同维护该项目
 
