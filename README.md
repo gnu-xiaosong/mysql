@@ -7,4 +7,4 @@
 api返回类型:`array`<br>
 ## 目录接结构<br>
 >>>application
-  >>index
+ >>index
