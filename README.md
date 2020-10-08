@@ -92,7 +92,7 @@ api返回类型:`array`<br>
     );
 ```
 ## api版本介绍<br>
-请求url:`http://ip/index.php/api/type?dataType= &name= `
+请求url:`http://ip/index.php/api/type?dataType= &value= `
 <br>
 ### 参数介绍<br>
 `type`: `必要值``请求的类型，支持get和post请求.当参数为get时，则为get请求``并且不区分大小写``当为其他字符时默认为post请求`<br>
