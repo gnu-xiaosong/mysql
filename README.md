@@ -91,7 +91,14 @@ api返回类型:`array`<br>
     )
     );
 ```
-
+## api版本介绍<br>
+请求url:`http://ip/index.php/api/type?dataType= &name= `
+<br>
+### 参数介绍<br>
+`type`: `必要值``请求的类型，支持get和post请求.当参数为get时，则为get请求``并且不区分大小写``当为其他字符时默认为post请求`<br>
+`dataType`:`返回的数据类型``非必要值``不指定则默认返回数据类型为json`
+`可选值:``array 和 json``注意:非array字符串默认为json类型`<br>
+`value`:`必要值``搜索值``不指定默认搜索配置"China"`
 ## 代码贡献<br>
 欢迎大家贡献相关代码！共同维护该项目
 
