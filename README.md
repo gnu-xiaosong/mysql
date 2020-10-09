@@ -101,7 +101,139 @@ api返回类型:`array`<br>
 `value`:`必要值``搜索值``不指定默认搜索配置"China"`
 #### 测试地址<br>
 return `array`:`http://api.xskj.store/index.php/api/get?dataType=array&value=测试`[返回array格式数据](http://api.xskj.store/index.php/api/get?dataType=array&value=测试)<br>
-return `json`:`http://api.xskj.store/index.php/api/get?dataType=json&value=测试`[返回json格式数据](http://api.xskj.store/index.php/api/get?dataType=json&value=测试)
+return `json`:`http://api.xskj.store/index.php/api/get?dataType=json&value=测试`[返回json格式数据](http://api.xskj.store/index.php/api/get?dataType=json&value=测试)<br>
+## 添加时间查询类文件
+<br>
+### 主文件index.php部分代码:<br>
+```php
+    //时间查询测试
+
+    public function api1(){
+
+   /* 'today',               //今天
+
+     'yesterday',           //昨天
+
+     'week',                //本周
+
+     'last week',           //上周
+
+     'month',               //本月
+
+     'last month',          //上月
+
+     'year',                 //今年
+
+     'last year',            //去年
+
+     '-'.$hours.' '.'hours'    //$hours小时内 int类型
+
+     */
+
+    //参数数组封装
+
+     $arr=array(
+
+     //necessary options(必须参数配置)
+
+     "necessary"=>array(
+
+         "status"=>2,           //状态控制值参数  int类型  默认0
+
+         "table"=>"xs_bank3",  //表名(全名)    varchar类型  默认
+
+         "time_column"=>"update_time", //时间字段名
+
+     ),
+
+     
+
+     //able options(可选参数配置)
+
+     "options"=>array(
+
+         "time"=>"2020-10-04",    //时间变量
+
+         "hours"=>2,             //小时变量 int类型  常用于查询几小时内的数据 默认2小时内
+
+         "item"=>8            //数组下标控制参数 int类型 默认0
+
+     ),
+
+     
+
+     //time interval options(时间区间选项)
+
+     "interval"=>array(
+
+     "headTime"=>"2020-04-23",   //start time
+
+     "footTime"=>"2020-10-04"     //end time
+```
+### 参数配置<br>
+#### 参数配置对应功能提示<br>
+`还未总结发布`<br>
+#### 参数代码:<br>
+```php
+    //参数数组封装
+
+     $arr=array(
+
+     //necessary options(必须参数配置)
+
+     "necessary"=>array(
+
+         "status"=>2,           //状态控制值参数  int类型  默认0
+
+         "table"=>"xs_bank3",  //表名(全名)    varchar类型  默认
+
+         "time_column"=>"update_time", //时间字段名
+
+     ),
+
+     
+
+     //able options(可选参数配置)
+
+     "options"=>array(
+
+         "time"=>"2020-10-04",    //时间变量
+
+         "hours"=>2,             //小时变量 int类型  常用于查询几小时内的数据 默认2小时内
+
+         "item"=>8            //数组下标控制参数 int类型 默认0
+
+     ),
+
+     
+
+     //time interval options(时间区间选项)
+
+     "interval"=>array(
+
+     "headTime"=>"2020-04-23",   //start time
+
+     "footTime"=>"2020-10-04"     //end time
+
+     ),
+
+     
+
+     //configure(配置参数)
+
+     "configure"=>array(
+
+        "getMakeSql"=>false,          //是否生成sql语句 boolean类型
+
+        "ifCache"=> false,              //是否开启缓存查询 boolean累类型
+
+        "getCacheTime"=>6,            //开启缓存查询的时间 int类型 单位秒
+
+        "limit"=>100,                      //查询数目限制 不开启 int类型
+
+        "getOrderColumn"=>"ID",        //排序字段 $orderColoum
+```<br>
+
 ## 代码贡献<br>
 欢迎大家贡献相关代码！共同维护该项目
 
