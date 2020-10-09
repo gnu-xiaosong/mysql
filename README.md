@@ -55,7 +55,7 @@ api返回类型:`array`<br>
 
 
 
-### 参数代码:<br>
+### 参数代码:
 ```php
     //搜索参数配置
     $arr=array(
@@ -104,39 +104,14 @@ return `array`:`http://api.xskj.store/index.php/api/get?dataType=array&value=测
 return `json`:`http://api.xskj.store/index.php/api/get?dataType=json&value=测试`[返回json格式数据](http://api.xskj.store/index.php/api/get?dataType=json&value=测试)<br>
 ## 添加时间查询类文件
 <br>
-## 主文件index.php部分代码:<br>
-
+## 主文件index.php部分代码:
 ```php
     //时间查询测试
 
     public function api1(){
-
-   /* 'today',               //今天
-
-     'yesterday',           //昨天
-
-     'week',                //本周
-
-     'last week',           //上周
-
-     'month',               //本月
-
-     'last month',          //上月
-
-     'year',                 //今年
-
-     'last year',            //去年
-
-     '-'.$hours.' '.'hours'    //$hours小时内 int类型
-
-     */
-
     //参数数组封装
-
      $arr=array(
-
      //necessary options(必须参数配置)
-
      "necessary"=>array(
 
          "status"=>2,           //状态控制值参数  int类型  默认0
