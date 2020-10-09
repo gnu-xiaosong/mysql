@@ -146,12 +146,11 @@ return `json`:`http://api.xskj.store/index.php/api/get?dataType=json&value=测�
 
      "footTime"=>"2020-10-04"     //end time
 ```
-###  参数配置<br>
-#### 参数配置对应功能提示<br>
+###  参数配置
+#### 参数配置对应功能提示
 `还未总结发布`
 <br>
 #### 参数代码:
-<br>
 ```
     //参数数组封装
 
