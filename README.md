@@ -172,9 +172,11 @@ return `json`:`http://api.xskj.store/index.php/api/get?dataType=json&value=测�
 ```
 ###  参数配置<br>
 #### 参数配置对应功能提示<br>
-`还未总结发布`<br>
-#### 参数代码:<br>
-```php
+`还未总结发布`
+<br>
+#### 参数代码:
+<br>
+```
     //参数数组封装
 
      $arr=array(
@@ -232,7 +234,8 @@ return `json`:`http://api.xskj.store/index.php/api/get?dataType=json&value=测�
         "limit"=>100,                      //查询数目限制 不开启 int类型
 
         "getOrderColumn"=>"ID",        //排序字段 $orderColoum
-```<br>
+```
+<br>
 
 ## 代码贡献<br>
 欢迎大家贡献相关代码！共同维护该项目
