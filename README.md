@@ -82,7 +82,7 @@ api返回类型:`array`<br>
     );
 ```
 ## api版本介绍<br>
-请求url:
+请求api:
 >`http://你的ip/index.php/api/type?dataType= &value= `
 
 ### 参数介绍<br>
@@ -94,15 +94,11 @@ api返回类型:`array`<br>
 |value|必要值|索引值,不指定默认索引"China"|
 
 
-
-
-`type`: `必要值``请求的类型，支持get和post请求.当参数为get时，则为get请求``并且不区分大小写``当为其他字符时默认为post请求`<br>
-`dataType`:`返回的数据类型``非必要值``不指定则默认返回数据类型为json`
-`可选值:``array 和 json``注意:非array字符串默认为json类型`<br>
-`value`:`必要值``搜索值``不指定默认搜索配置"China"`
 #### 测试地址<br>
-return `array`:`http://api.xskj.store/index.php/api/get?dataType=array&value=测试`[返回array格式数据](http://api.xskj.store/index.php/api/get?dataType=array&value=测试)<br>
-return `json`:`http://api.xskj.store/index.php/api/get?dataType=json&value=测试`[返回json格式数据](http://api.xskj.store/index.php/api/get?dataType=json&value=测试)<br>
+return `array`:
+`http://api.xskj.store/index.php/api/get?dataType=array&value=测试`[返回array格式数据](http://api.xskj.store/index.php/api/get?dataType=array&value=测试)<br>
+return `json`:
+`http://api.xskj.store/index.php/api/get?dataType=json&value=测试`[返回json格式数据](http://api.xskj.store/index.php/api/get?dataType=json&value=测试)<br>
 ## 添加时间查询类文件
 <br>
 ## 主文件index.php部分代码:
