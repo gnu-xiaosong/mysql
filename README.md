@@ -98,7 +98,7 @@ return `array`:
 <br>return `json`:
 `http://api.xskj.store/index.php/api/get?dataType=json&value=测试`
 [点我测试](http://api.xskj.store/index.php/api/get?dataType=json&value=测试)
-## 添加时间查询类文件
+## 日志
 
 ## 代码贡献<br>
 欢迎大家贡献相关代码！共同维护该项目
