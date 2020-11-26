@@ -18,7 +18,6 @@ api返回类型:`array`<br>
 ## 数据库操作类文件<br>
 
 ## 参数配置<br>
-### 参数说明:<br>
 #### 一级状态参数
  |status|含义|
   |---|---|
@@ -83,9 +82,19 @@ api返回类型:`array`<br>
     );
 ```
 ## api版本介绍<br>
-请求url:`http://ip/index.php/api/type?dataType= &value= `
+请求url:`http://你的ip/index.php/api/type?dataType= &value= `
 <br>
 ### 参数介绍<br>
+
+|参数|必要性|说明|
+  |---|---|---|
+  |type|必要值|请求的类型，支持get和post请求.当参数为get时，则为get请求.并且不区分大小写.当为其他字符时默认为post请求|
+   |dataType|非必要值|不指定则默认返回数据类型为json|
+|value|必要值|索引值,不指定默认索引"China"|
+
+
+
+
 `type`: `必要值``请求的类型，支持get和post请求.当参数为get时，则为get请求``并且不区分大小写``当为其他字符时默认为post请求`<br>
 `dataType`:`返回的数据类型``非必要值``不指定则默认返回数据类型为json`
 `可选值:``array 和 json``注意:非array字符串默认为json类型`<br>
