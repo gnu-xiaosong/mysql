@@ -10,9 +10,6 @@
 [官方文档](http://www.xskj.store)
 ## 介绍:<br>
 该数据库操作类api基于thinkphp的数据库操作的二次封装。封装了数据操作中常用的查询，更新，删除……常用的操作。支持mysql,pdo等数据库类型。只需配置相关数据录库信息，传入所要执行的常用数据库参数即可成功调用返回数据。
-## 使用说明:<br>
-调用url:`http://域名/index.php/api/参数`<br>
-api返回类型:`array`<br>
 ## 目录结构:<br>
 >>>application
 ## 数据库操作类文件<br>
@@ -97,10 +94,10 @@ api返回类型:`array`<br>
 #### 测试地址<br>
 return `array`:
 `http://api.xskj.store/index.php/api/get?dataType=array&value=测试`
-[点我测试](http://api.xskj.store/index.php/api/get?dataType=array&value=测试)<br>
+[点我测试](http://api.xskj.store/index.php/api/get?dataType=array&value=测试)
 return `json`:
 `http://api.xskj.store/index.php/api/get?dataType=json&value=测试`
-[点我测试](http://api.xskj.store/index.php/api/get?dataType=json&value=测试)<br>
+[点我测试](http://api.xskj.store/index.php/api/get?dataType=json&value=测试)
 ## 添加时间查询类文件
 <br>
 ## 主文件index.php部分代码:
