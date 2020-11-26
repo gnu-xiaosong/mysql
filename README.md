@@ -82,8 +82,9 @@ api返回类型:`array`<br>
     );
 ```
 ## api版本介绍<br>
-请求url:`http://你的ip/index.php/api/type?dataType= &value= `
-<br>
+请求url:
+>`http://你的ip/index.php/api/type?dataType= &value= `
+
 ### 参数介绍<br>
 
 |参数|必要性|说明|
