@@ -95,11 +95,10 @@
 return `array`:
 `http://api.xskj.store/index.php/api/get?dataType=array&value=测试`
 [点我测试](http://api.xskj.store/index.php/api/get?dataType=array&value=测试)
-return `json`:
+<br>return `json`:
 `http://api.xskj.store/index.php/api/get?dataType=json&value=测试`
 [点我测试](http://api.xskj.store/index.php/api/get?dataType=json&value=测试)
 ## 添加时间查询类文件
-<br>
 ## 主文件index.php部分代码:
 ```php
     //时间查询测试
