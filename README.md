@@ -96,9 +96,11 @@ api返回类型:`array`<br>
 
 #### 测试地址<br>
 return `array`:
-`http://api.xskj.store/index.php/api/get?dataType=array&value=测试`[返回array格式数据](http://api.xskj.store/index.php/api/get?dataType=array&value=测试)<br>
+`http://api.xskj.store/index.php/api/get?dataType=array&value=测试`
+[点我测试](http://api.xskj.store/index.php/api/get?dataType=array&value=测试)<br>
 return `json`:
-`http://api.xskj.store/index.php/api/get?dataType=json&value=测试`[返回json格式数据](http://api.xskj.store/index.php/api/get?dataType=json&value=测试)<br>
+`http://api.xskj.store/index.php/api/get?dataType=json&value=测试`
+[点我测试](http://api.xskj.store/index.php/api/get?dataType=json&value=测试)<br>
 ## 添加时间查询类文件
 <br>
 ## 主文件index.php部分代码:
